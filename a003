@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){
+	//char s[100];
+	int sum,d1,d2;
+	
+	
+	while(scanf("%d %d",&d1,&d2) != EOF){
+		sum = (d1*2 + d2)%3;
+		switch (sum){
+			case 0:
+				printf("普通\n");
+				break;
+			case 1:
+				printf("吉\n");
+				break;
+			case 2:
+				printf("大吉\n");
+				break;
+		}
+		
+	}
+	return 0;
+}
