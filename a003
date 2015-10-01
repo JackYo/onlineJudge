@@ -18,7 +18,7 @@ int main(){
 				printf("大吉\n");
 				break;
 		}
-		
+		//123
 	}
 	return 0;
 }
